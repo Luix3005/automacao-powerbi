@@ -1,64 +1,34 @@
-Automação Power BI
+# Automação de Relatórios no Power BI
 
-Este projeto automatiza o processo de geração de relatórios no Power BI a partir de dados extraídos de fontes específicas. A automação facilita a atualização e a distribuição de relatórios, economizando tempo e reduzindo erros manuais.
+## Descrição
+Este projeto visa automatizar o processo de geração e atualização de relatórios no Power BI, utilizando dados extraídos de fontes específicas. A automação facilita a atualização e a distribuição de relatórios, economizando tempo e reduzindo erros manuais. O objetivo é transformar dados brutos em insights visuais de forma rápida e eficiente.
 
-Funcionalidades
+## Tecnologias Utilizadas
+- Python
+- Power BI
+- Bibliotecas Python: Pandas, NumPy, OpenPyXL
+- Excel
 
-Extração de Dados: Coleta dados de fontes configuradas.
+## Funcionalidades
+- Extração de dados de fontes configuradas.
+- Transformação e limpeza dos dados para análise.
+- Geração automática de relatórios no Power BI.
+- Redução de erros manuais e tempo de atualização.
 
-Transformação de Dados: Aplica transformações necessárias para análise.
-
-Geração de Relatórios: Cria relatórios no Power BI com base nos dados processados.
-
-Agendamento: Permite agendar a execução automática do processo.
-
-Tecnologias Utilizadas
-
-Python: Linguagem principal para automação.
-
-Power BI: Ferramenta de visualização de dados.
-
-Git: Controle de versão do código-fonte.
-
-Pré-requisitos
-
-Python 3.8 ou superior
-
-Bibliotecas Python listadas em requirements.txt
-
-Power BI instalado e configurado
-
-Instalação
-
-Clone o repositório:
-
-git clone https://github.com/Luix3005/automacao-powerbi.git
-cd automacao-powerbi
-
-
-Crie e ative um ambiente virtual:
-
-python -m venv venv
-.\venv\Scripts\activate  # No Windows
-source venv/bin/activate  # No Linux/Mac
-
-
+## Como Executar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Luix3005/automacao-powerbi.git
+   cd automacao-powerbi
 Instale as dependências:
 
+bash
+Copiar código
 pip install -r requirements.txt
-
-
-Configure as fontes de dados e agendamentos conforme necessário.
-
-Como Usar
-
 Execute o script principal:
 
+bash
+Copiar código
 python main.py
-
-
-Para agendar a execução, utilize ferramentas como o Agendador de Tarefas do Windows ou cron no Linux.
-
-Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Resultados / Insights
+Relatórios atualizados automaticamente, reduzindo o tempo de 30 minutos para 2 minutos
